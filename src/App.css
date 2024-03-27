@@ -1,0 +1,50 @@
+.App {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.container {
+  width: 80%;
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product_container,
+.cart_container {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  flex-basis: 48%;
+}
+
+.product_container h2,
+.cart_container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #5d647b;
+}
+
+.total_card {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  margin-top: 15px;
+  background: #e7e7e7;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.total_card p {
+  margin: 0;
+}

@@ -1,0 +1,18 @@
+.cart_card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0;
+}
+
+.cart_card p {
+  margin: 0;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.cart_card p:nth-child(2) {
+  background: #f2f2f2;
+  border-radius: 4px;
+}
